@@ -1,8 +1,11 @@
 name: Update Game Stats
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Update tiap 10 menit
-  workflow_dispatch:  # Memungkinkan trigger manual
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:  # Tambahkan bagian permissions
+  contents: write
 
 jobs:
   update-stats:
@@ -10,17 +13,31 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup debug
+        run: |
+          ls -la
+          cat README.md
 
       - name: Update Score
         run: |
-          # Generate angka random untuk score
+          # Generate random score
           NEW_SCORE=$((RANDOM % 1000000 + 1000))
+          FORMATTED_SCORE=$(printf "%'d" $NEW_SCORE)
           
-          # Update README.md
-          sed -i "s/SCORE: [0-9,]*/SCORE: $(printf "%'d" $NEW_SCORE)/" README.md
+          # Debug output
+          echo "New Score: $FORMATTED_SCORE"
+          
+          # Update README
+          sed -i "s/SCORE: [0-9,]*/SCORE: $FORMATTED_SCORE/" README.md
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "🎮 Update game score"
           branch: main
+          commit_user_name: "GitHub Action"
+          commit_user_email: "action@github.com"
