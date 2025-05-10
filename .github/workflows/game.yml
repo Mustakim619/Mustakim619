@@ -1,1 +1,26 @@
+name: Update Game Stats
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Update tiap 10 menit
+  workflow_dispatch:  # Memungkinkan trigger manual
 
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Update Score
+        run: |
+          # Generate angka random untuk score
+          NEW_SCORE=$((RANDOM % 1000000 + 1000))
+          
+          # Update README.md
+          sed -i "s/SCORE: [0-9,]*/SCORE: $(printf "%'d" $NEW_SCORE)/" README.md
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "🎮 Update game score"
+          branch: main
