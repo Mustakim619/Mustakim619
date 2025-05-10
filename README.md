@@ -1,18 +1,21 @@
-# 🎮 Mustakim619 - Game Developer Profile
-
+<!-- Header dengan animasi -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Mustakim619/Mustakim619/main/assets/game-banner.gif" width="600">
+  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="200">
+
+  # 🎮 Mustakim619 - The Code Gamer 🕹️
   
-  [![Level](https://img.shields.io/badge/Level-99-blueviolet?style=for-the-badge)](https://github.com/Mustakim619)
-  [![XP](https://img.shields.io/badge/XP-1,234,567-orange?style=for-the-badge)](https://github.com/Mustakim619)
+  [![Game Level](https://img.shields.io/badge/Level-99-success?style=for-the-badge&logo=gamejolt)](https://github.com/Mustakim619)
+  [![XP Points](https://img.shields.io/badge/XP-1.2M-ff69b4?style=for-the-badge)](https://github.com/Mustakim619)
 </div>
 
 ---
 
-## 🕹️ Game Console
+### 🎯 Game Console ASCII
+<!-- Animasi game sederhana -->
 ```diff
-+ ==================================
-+ | PLAYER: Mustakim619            |
-+ | SCORE: 0                       |
-+ | LIVES: 🧡🧡🧡🧡                |
-+ ==================================
++ [==================================]
++ |   PLAYER: MUSTAKIM619           |
++ |   SCORE: 9999999                |
++ |   LIVES: 🧡🧡🧡                 |
++ [==================================]
+! PRESS START BUTTON...
