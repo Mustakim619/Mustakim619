@@ -19,3 +19,4 @@
 + |   LIVES: 🧡🧡🧡                 |
 + [==================================]
 ! PRESS START BUTTON...
+<div align="center"> <svg width="300" height="100"> <rect width="100%" height="100%" fill="#000"/> <circle cx="50" cy="50" r="20" fill="#ff0000"> <animate attributeName="cx" from="50" to="250" dur="1.5s" repeatCount="indefinite"/> </circle> </svg> </div> ```
