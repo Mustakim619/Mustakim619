@@ -1,21 +1,46 @@
-<!-- Header dengan animasi -->
 <div align="center">
-  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="200">
-
-  # 🎮 Mustakim619 - The Code Gamer 🕹️
+  <img src="https://avatars.githubusercontent.com/u/[USER-ID]?s=200" width="150" style="border-radius:50%">
   
-  [![Game Level](https://img.shields.io/badge/Level-99-success?style=for-the-badge&logo=gamejolt)](https://github.com/Mustakim619)
-  [![XP Points](https://img.shields.io/badge/XP-1.2M-ff69b4?style=for-the-badge)](https://github.com/Mustakim619)
+  # 🚀 Mustakim  
+  ### Python & Flask Developer | Open Source Contributor
+  
+  [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=flat&logo=google-chrome)](https://mustakim-portfolio.netlify.app)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/mustakim)
 </div>
 
 ---
 
-### 🎯 Game Console ASCII
-<!-- Animasi game sederhana -->
-```diff
-+ [==================================]
-+ |   PLAYER: MUSTAKIM619           |
-+ |   SCORE: 24425                |
-+ |   LIVES: 🧡🧡🧡                 |
-+ [==================================]
-! PRESS START BUTTON...
+## **💼 What I Do**
+- 🔧 Membangun aplikasi web dengan **Python & Flask**
+- 🛠️ Berkontribusi di proyek open source
+- 📚 Berbagi pengetahuan melalui blog teknis
+
+---
+
+## **🛠 Tech Stack**
+<div align="center">
+  
+  ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+  ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask)
+  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+  ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+  
+</div>
+
+---
+
+## **🌟 Featured Projects**
+| Project | Deskripsi | Teknologi |
+|---------|-----------|-----------|
+| [Clinic App](https://github.com/Mustakim619/clinic-app) | Sistem manajemen klinik | Python, Flask, MySQL |
+| [Love Calculator](https://github.com/Mustakim619/love) | Web interaktif kalkulator cinta | HTML, CSS, JS |
+
+---
+
+## **📊 GitHub Stats**
+<div align="center">
+  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mustakim619&show_icons=true&theme=radical)  
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mustakim619&layout=compact&theme=radical)
+  
+</div>
